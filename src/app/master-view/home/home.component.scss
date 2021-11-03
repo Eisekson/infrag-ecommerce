@@ -106,16 +106,16 @@
   min-height: 50px;
   min-width: 50px;
 }
-.column-layout_2 {
-  position: relative;
-  min-height: 50px;
-  min-width: 50px;
-}
 .card_1 {
   max-width: 260px;
   margin: 0 8px 8px 0;
   height: max-content;
   flex: 0 0 auto;
+}
+.column-layout_2 {
+  position: relative;
+  min-height: 50px;
+  min-width: 50px;
 }
 .row-layout_5 {
   flex: 0 0 auto;
