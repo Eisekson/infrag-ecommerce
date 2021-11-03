@@ -1,0 +1,40 @@
+<div class="row-layout row">
+  <img src="https://filetransfer.infragistics.com/public.php?service=files&t=a9fc08268fef6b036578d0788c4b593f&download" routerLink="/master-view/home" class="image" />
+  <div class="row-layout_1 row">
+    <button igxButton="flat" igxButtonColor="var(--igx-grays-700)" [disabled]="false" routerLink="/master-view/all-products" class="button">
+      <span>Auto Body Parts</span>
+    </button>
+    <button igxButton="flat" igxButtonColor="var(--igx-grays-700)" [disabled]="false" class="button">
+      <span>Lighting</span>
+    </button>
+    <button igxButton="flat" igxButtonColor="var(--igx-grays-700)" [disabled]="false" class="button">
+      <span>Engine &amp; Drivetrain</span>
+    </button>
+    <button igxButton="flat" igxButtonColor="var(--igx-grays-700)" [disabled]="false" class="button">
+      <span>Brakes &amp; Suspension</span>
+    </button>
+    <button igxButton="flat" igxButtonColor="var(--igx-grays-700)" [disabled]="false" class="button">
+      <span>Engine &amp; Drivetrain</span>
+    </button>
+    <button igxButton="flat" igxButtonColor="var(--igx-grays-700)" [disabled]="false" class="button">
+      <span>Interior</span>
+    </button>
+    <button igxButton="flat" igxButtonColor="var(--igx-grays-700)" [disabled]="false" class="button">
+      <span>Exterior</span>
+    </button>
+  </div>
+  <div class="row-layout_2 row">
+    <button igxButton="icon" igxButtonColor="var(--igx-secondary-400)" type="icon" [disabled]="false" class="icon-button">
+      <igx-icon>search</igx-icon>
+    </button>
+    <button igxButton="icon" igxButtonColor="var(--igx-secondary-400)" type="icon" [disabled]="false" class="icon-button">
+      <igx-icon>account_circle</igx-icon>
+    </button>
+    <button igxButton="icon" igxButtonColor="var(--igx-secondary-400)" type="icon" [disabled]="false" routerLink="/master-view/shopping-cart" class="icon-button">
+      <igx-icon>shopping_cart</igx-icon>
+    </button>
+  </div>
+</div>
+<div class="views-container">
+  <router-outlet></router-outlet>
+</div>

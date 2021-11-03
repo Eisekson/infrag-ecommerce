@@ -1,0 +1,220 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.sitemap {
+  justify-content: space-evenly;
+  min-height: 170px;
+  overflow: hidden;
+  border-width: 1px 0px 0px 0px;
+  padding: 24px;
+  border-color: var(--igx-grays-200);
+  border-style: solid;
+  position: relative;
+  min-width: 50px;
+}
+.content {
+  padding: 48px 24px;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+  min-height: 50px;
+  min-width: 50px;
+}
+.footer {
+  padding: 0 24px;
+  background-color: var(--igx-grays-100);
+  height: 50px;
+  border-width: 0px 0px 1px 0px;
+  border-color: var(--igx-grays-200);
+  border-style: solid;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 auto;
+  min-height: 50px;
+  min-width: 50px;
+}
+.row-layout {
+  min-width: 700px;
+  background-color: var(--igx-surface-500);
+  align-items: stretch;
+  flex: 0 0 auto;
+}
+.row-layout_1 {
+  min-width: 100px;
+  background-color: var(--igx-warn-500);
+  flex: 1 0 auto;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: 50px;
+}
+.main-page-header {
+  min-height: 240px;
+  background-color: #151725;
+  background-image: url(https://filetransfer.infragistics.com/public.php?service=files&t=6411ef0b474804e48e2a432c1160de80&download);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 24px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-width: 50px;
+}
+.row-layout_2 {
+  max-width: 1280px;
+  flex: 1 1 0;
+  align-items: stretch;
+  position: relative;
+  min-height: 50px;
+}
+.row-layout_3 {
+  max-width: 1680px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  min-width: 50px;
+}
+.column-layout {
+  flex: 1 0 auto;
+  align-items: stretch;
+  min-height: 50px;
+}
+.row-layout_4 {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: 50px;
+}
+.card {
+  min-width: 160px;
+  max-width: 260px;
+  margin: 0 8px 8px 0;
+  height: max-content;
+  flex: 0 0 auto;
+}
+.actions {
+  min-height: 40px;
+  min-width: 50px;
+}
+.column-layout_1 {
+  align-items: stretch;
+  position: relative;
+  min-height: 50px;
+  min-width: 50px;
+}
+.column-layout_2 {
+  position: relative;
+  min-height: 50px;
+  min-width: 50px;
+}
+.card_1 {
+  max-width: 260px;
+  margin: 0 8px 8px 0;
+  height: max-content;
+  flex: 0 0 auto;
+}
+.row-layout_5 {
+  flex: 0 0 auto;
+}
+.content_1 {
+  min-height: 50px;
+  min-width: 50px;
+}
+.text {
+  margin: 0 0 16px;
+  text-align: center;
+  color: var(--igx-surface-500);
+  height: max-content;
+  min-width: min-content;
+  white-space: pre-wrap;
+}
+.title {
+  margin: 0 24px 32px;
+  height: max-content;
+  min-width: min-content;
+  white-space: pre-wrap;
+}
+.title_1 {
+  margin: 48px 24px 32px;
+  height: max-content;
+  min-width: min-content;
+  white-space: pre-wrap;
+}
+.title_2 {
+  margin: 8px 0 0;
+  height: max-content;
+  min-width: min-content;
+  white-space: pre-wrap;
+}
+.text_1 {
+  margin: 0 16px 0 0;
+  flex: 0 0 auto;
+  color: var(--igx-grays-800);
+  height: max-content;
+  min-width: min-content;
+  white-space: pre-wrap;
+}
+.title_3 {
+  text-align: center;
+  color: var(--igx-surface-500);
+  height: max-content;
+  min-width: min-content;
+  white-space: pre-wrap;
+}
+.text_2 {
+  margin: 0 32px 0 0;
+  color: var(--igx-grays-700);
+  flex: 0 0 auto;
+  height: max-content;
+  min-width: min-content;
+  white-space: pre-wrap;
+}
+.text_3 {
+  color: var(--igx-grays-700);
+  flex: 0 0 auto;
+  height: max-content;
+  min-width: min-content;
+  white-space: pre-wrap;
+}
+.title_4 {
+  color: var(--igx-grays-800);
+  height: max-content;
+  min-width: min-content;
+  white-space: pre-wrap;
+}
+.content_2 {
+  height: max-content;
+  min-width: min-content;
+  white-space: pre-wrap;
+}
+.select {
+  width: 150px;
+  flex: 0 0 auto;
+  height: max-content;
+}
+.select_1 {
+  min-width: 150px;
+  flex: 1 0 auto;
+  height: max-content;
+}
+.button {
+  flex: 1 0 auto;
+  min-width: min-content;
+  height: max-content;
+}
+.button_1 {
+  margin: 0 0 8px;
+  min-width: min-content;
+  height: max-content;
+}
+.row {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
